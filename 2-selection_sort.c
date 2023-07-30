@@ -10,20 +10,20 @@ void swap_ints(int *x, int *y)
 {
 	int temp;
 
-	temp = *x
+	temp = *x;
 	*x = *y;
 	*y = temp;
 }
 
 /**
  * selection_sort - Sorts an array of integers in ascending order
- * 			using selection sort algorithms
+ *			using selection sort algorithms
  * @array: An array of integers
  * @size: The size of the array
  *
  * Description: Prints the array after each swap.
  */
-void selecion_sort(int *array, size_t size)
+void selection_sort(int *array, size_t size)
 {
 	int *min;
 	size_t i, j;
